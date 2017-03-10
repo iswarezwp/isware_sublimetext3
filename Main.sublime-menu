@@ -25,7 +25,7 @@
                                 "args": {"file": "${packages}/User/isware.sublime-settings"},
                                 "caption": "Settings – User"
                             },
-                            { "caption": "-" }
+                            { "caption": "-" },
                             {
                                 "command": "open_file",
                                 "args": {"file": "${packages}/isware_sublimetext3/Default (Windows).sublime-keymap"},
