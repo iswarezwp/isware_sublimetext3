@@ -1,3 +1,9 @@
 {
-    // "first_name": "John"
+    // default author: zhangwenping, you can modify it
+    "author": "zhangwenping",
+
+    // organization is used for copyright info, for example, if the value
+    // is "Github", then it will gen the following copyright info:
+    // `Copyright (c) {date}, Github.`
+    "organization": "zhangwenping",
 }

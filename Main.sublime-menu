@@ -1,48 +1,46 @@
 [
-    // {
-    //     "id": "tools",
-    //     "children":
-    //     [
-    //         {
-    //             "caption": "isware",
-    //             "children":
-    //             [
-    //                 { "caption": "Command name", "command": "isware_do" }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     "caption": "Preferences",
-    //     "mnemonic": "n",
-    //     "id": "preferences",
-    //     "children":
-    //     [
-    //         {
-    //             "caption": "Package Settings",
-    //             "mnemonic": "P",
-    //             "id": "package-settings",
-    //             "children":
-    //             [
-    //                 {
-    //                     "caption": "isware",
-    //                     "children":
-    //                     [
-    //                         {
-    //                             "command": "open_file",
-    //                             "args": {"file": "${packages}/isware/isware.sublime-settings"},
-    //                             "caption": "Settings – Default"
-    //                         },
-    //                         {
-    //                             "command": "open_file",
-    //                             "args": {"file": "${packages}/User/isware.sublime-settings"},
-    //                             "caption": "Settings – User"
-    //                         },
-    //                         { "caption": "-" }
-    //                     ]
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // }
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "isware",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/isware_sublimetext3/isware.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/isware.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" }
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/isware_sublimetext3/Default (Windows).sublime-keymap"},
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/isware.sublime-keymap"},
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]

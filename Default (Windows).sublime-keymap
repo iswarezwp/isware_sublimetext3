@@ -1,6 +1,31 @@
 [
-    // {
-    //     "keys": ["crtl+alt+a"],
-    //     "command": "isware_do"
-    // }
+    {
+        "keys": ["alt+h"],
+        "command": "move",
+        "args": {"by": "words", "forward": false}
+    },
+    {
+        "keys": ["alt+l"],
+        "command": "move",
+        "args": {"by": "word_ends", "forward": true}
+    },
+    {
+        "keys": ["alt+u"],
+        "command": "move_to",
+        "args": {"to": "bol", "extend": false}
+    },
+    {
+        "keys": ["alt+j"],
+        "command": "move_to",
+        "args": {"to": "eol", "extend": false}
+    },
+    {
+        "keys": ["ctrl+alt+d"],
+        "command": "docstring"
+    },
+    {
+        "keys": ["ctrl+enter"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/Default/Add Line.sublime-macro"}
+    }
 ]
