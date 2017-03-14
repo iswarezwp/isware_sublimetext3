@@ -19,8 +19,8 @@ class DocstringCommand(sublime_plugin.TextCommand):
             return
 
         s = sublime.load_settings("mysublime.sublime-settings")
-        author = s.get('author', 'zhangwenping')
-        organization = s.get('organization', 'zhangwenping')
+        author = s.get('author', '<Author>')
+        organization = s.get('organization', '<Org>')
 
         # get the content of the line
         for region in self.view.sel():
