@@ -1,28 +1,28 @@
 [
     {
-        "caption": "Preferences: isware Settings – Default",
+        "caption": "Preferences: mysublime Settings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/isware_sublimetext3/isware.sublime-settings"
+            "file": "${packages}/mysublime/mysublime.sublime-settings"
         }
     },
     {
-        "caption": "Preferences: isware Settings – User",
+        "caption": "Preferences: mysublime Settings – User",
         "command": "open_file", "args":
         {
-            "file": "${packages}/User/isware.sublime-settings"
+            "file": "${packages}/User/mysublime.sublime-settings"
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – Default",
+        "caption": "Preferences: mysublime Key Bindings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/isware_sublimetext3/Default (Linux).sublime-keymap",
+            "file": "${packages}/mysublime/Default (Linux).sublime-keymap",
             "platform": "Linux"
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – User",
+        "caption": "Preferences: mysublime Key Bindings – User",
         "command": "open_file", "args":
         {
             "file": "${packages}/User/Default (Linux).sublime-keymap",
@@ -30,15 +30,15 @@
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – Default",
+        "caption": "Preferences: mysublime Key Bindings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/isware_sublimetext3/Default (OSX).sublime-keymap",
+            "file": "${packages}/mysublime/Default (OSX).sublime-keymap",
             "platform": "OSX"
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – User",
+        "caption": "Preferences: mysublime Key Bindings – User",
         "command": "open_file", "args":
         {
             "file": "${packages}/User/Default (OSX).sublime-keymap",
@@ -46,15 +46,15 @@
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – Default",
+        "caption": "Preferences: mysublime Key Bindings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/isware_sublimetext3/Default (Windows).sublime-keymap",
+            "file": "${packages}/mysublime/Default (Windows).sublime-keymap",
             "platform": "Windows"
         }
     },
     {
-        "caption": "Preferences: isware Key Bindings – User",
+        "caption": "Preferences: mysublime Key Bindings – User",
         "command": "open_file", "args":
         {
             "file": "${packages}/User/Default (Windows).sublime-keymap",

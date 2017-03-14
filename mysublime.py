@@ -18,7 +18,7 @@ class DocstringCommand(sublime_plugin.TextCommand):
         if lang is None:
             return
 
-        s = sublime.load_settings("isware.sublime-settings")
+        s = sublime.load_settings("mysublime.sublime-settings")
         author = s.get('author', 'zhangwenping')
         organization = s.get('organization', 'zhangwenping')
 

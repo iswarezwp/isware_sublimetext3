@@ -12,28 +12,28 @@
                 "children":
                 [
                     {
-                        "caption": "isware",
+                        "caption": "MySublime",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/isware_sublimetext3/isware.sublime-settings"},
+                                "args": {"file": "${packages}/mysublime/mysublime.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/isware.sublime-settings"},
+                                "args": {"file": "${packages}/User/mysublime.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/isware_sublimetext3/Default (Windows).sublime-keymap"},
+                                "args": {"file": "${packages}/mysublime/Default (Windows).sublime-keymap"},
                                 "caption": "Key Bindings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/isware.sublime-keymap"},
+                                "args": {"file": "${packages}/User/mysublime.sublime-keymap"},
                                 "caption": "Key Bindings – User"
                             },
                             { "caption": "-" }
