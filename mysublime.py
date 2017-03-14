@@ -120,7 +120,7 @@ def construct_docstring(declaration, indent=0):
             if len(param_lines):
                 lines.append('\n')
 
-            lines.append('@result: \n')
+            lines.append('@result:\n')
         lines.append('"""\n')
 
         for line in lines:
